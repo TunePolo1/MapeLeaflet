@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <title></title>
-    <head></head>
-    <body></body>
+    <head>
+        <meta charset="UTF-8"> </meta>
+        <title>Map</title>
+        <link rel = "stylesheet" href = "lib/leaflet.css"/>
+        <script src = "lib/leaflet.js"></script>
+        <script src ="data/countries.geojson"></script>
+        <style type="text/css">
+        *{background-color: lightblue;}
+        #map{height: 400px;}
+        </style>
+    </head>
+    <body>
+        <h1>Map</h1>
+        <div id = "map"></div>
+        <script>
+            var map = L.map("map").setView([43.847, 18.3564], 13);
+            var countriesLayerL = L.geoJSON(countries).addTo(map);
+            map.fitBounds(countriesLayer.getBounds());
+        </script>
+    </body>
 </html>
