@@ -1,0 +1,25 @@
+{
+  "name": "mapeleaflet",
+  "version": "1.0.0",
+  "description": "Mapa Trase",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TunePolo1/MapeLeaflet.git"
+  },
+  "author": "TunePolo1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TunePolo1/MapeLeaflet/issues"
+  },
+  "homepage": "https://github.com/TunePolo1/MapeLeaflet#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
